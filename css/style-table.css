@@ -1,0 +1,316 @@
+/* Table style*/
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    min-width: 1000px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center!important;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #9eb9473f;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #a5c639a2;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #a5c639a2;
+}
+
+.forma {
+    width: 100%;
+    margin: 0 auto;
+    /*position: relative;*/
+    /*z-index: 10;*/
+}
+.forma h1 {
+    font-size: 21px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.forma input,
+.forma textarea  {
+    width: 500px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+    border-color: red;
+}
+
+.forma input,
+.forma textarea {
+    caret-color: black;
+}
+
+select {
+    width: 513px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.forma label {
+    color: red;
+    font-size: 20px;
+}
+
+.forma .inputAndLabels {
+    margin-bottom: 20px;
+}
+
+.shtoModifiko {
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+
+.kategorite .styled-table {
+    position: relative;
+    bottom: 40px;
+}
+
+.kategorite .styled-table th,
+.styled-table td {
+    text-align: left;
+}
+
+.btn-filtro {
+    border: none;
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    margin-left: 20px;
+}
+
+.list-entity .filter {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.klientet .image img {
+    width: 1000px;
+    position: relative;
+    z-index: 10;
+}
+.klientet .styled-table {
+    position: relative;
+    bottom: 60px;
+    z-index: 50;
+}
+
+.shtoModifikoKlient .image {
+    margin-top: 100px;
+}
+
+.shtoModifikoKlient .butonat {
+    display: flex;
+}
+.shtoModifikoKlient .butonat a {
+    margin: 5px;
+}
+
+
+/*============== Klientet =============*/
+
+
+/*============== Automjetet =============*/
+
+.list-entity,
+.section-shto-modifiko {
+    margin-top: 50px!important;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image img {
+    width: 1000px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.image {
+    position: relative;
+    z-index: 5;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: sans-serif;
+    min-width: 1000px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    text-align: center!important;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #9eb9473f;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #a5c639a2;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: red;
+}
+
+#add_entity{
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-left: auto;
+    border: none;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+#add_entity:hover,
+.btn-filtro:hover {
+    background: white;
+    color: red;
+}
+
+/*============== Automjetet =============*/
+
+.forma {
+    width: 100%;
+    margin: 0 auto;
+    /*position: relative;*/
+    /*z-index: 10;*/
+}
+.forma h1 {
+    font-size: 21px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.forma input,
+.forma textarea  {
+    width: 500px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+    border-color: red;
+}
+
+.forma input,
+.forma textarea {
+    caret-color: black;
+}
+
+select {
+    width: 513px;
+    padding: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.forma label {
+    color: red;
+    font-size: 20px;
+}
+
+.forma .inputAndLabels {
+    margin-bottom: 20px;
+}
+
+.shtoModifiko {
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    background:red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+
+
+.kategorite .styled-table {
+    position: relative;
+    bottom: 40px;
+}
+
+.kategorite .styled-table th,
+.styled-table td {
+    text-align: left;
+}
+
+.btn-filtro {
+    border: none;
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s ease;
+    margin-left: 20px;
+}
+
+.list-entity .filter {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
